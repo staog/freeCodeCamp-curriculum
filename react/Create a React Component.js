@@ -1,4 +1,3 @@
-
 class MyComponent extends React.Component {
   constructor(props) {
     super(props);
@@ -10,8 +9,6 @@ class MyComponent extends React.Component {
         <h1>Hello React!</h1>
       </div>
     )
-
-
     // change code above this line
   }
 };
