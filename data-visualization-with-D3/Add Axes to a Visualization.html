@@ -57,9 +57,9 @@
     
     // Add your code below this line
     svg.append("g")
-       .call(yAxis)
-    
-    
+       .attr("transform", "translate(" + padding + ", 0)")
+       .call(yAxis);
+        
     // Add your code above this line
   
   </script>
