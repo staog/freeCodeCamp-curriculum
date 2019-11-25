@@ -3,7 +3,7 @@ const AVG_TEMPERATURES = {
   tomorrow: 79
 };
 
-function getTempOfTmrw(avgTemperatures) {
+function getTemperatureOfTomorrow(avgTemperatures) {
   "use strict";
   // change code below this line
   const {tomorrow : tempOfTomorrow} = avgTemperatures; // change this line
@@ -11,4 +11,4 @@ function getTempOfTmrw(avgTemperatures) {
   return tempOfTomorrow;
 }
 
-console.log(getTempOfTmrw(AVG_TEMPERATURES)); // should be 79
+console.log(getTemperatureOfTomorrow(AVG_TEMPERATURES)); // should be 79
