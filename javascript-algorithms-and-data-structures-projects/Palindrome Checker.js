@@ -10,4 +10,4 @@ function palindrome(str) {
   }
 }
 
-palindrome("eye");
+palindrome("Ana voli Milovana");
